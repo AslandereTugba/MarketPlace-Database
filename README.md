@@ -18,13 +18,13 @@ A SQL Server database design for a subscription-based learning marketplace where
 - **Seed data + demo queries** included to validate the workflow end-to-end
 
 ## What’s Inside
-- `CET321_Final_*.sql`  
+- `MarketPlace_Database*.sql`  
   Creates the database, tables, indexes, views, stored procedures, triggers, inserts sample data, and runs demo queries.
-- `Updated WB*.png`  
+- `ClassDiagram*.png`  
   ER-style overview diagram.
-- `Student*.png`  
+- `LogicalDiagram*.png`  
   Logical/relational model view.
-- `*_FinalProject.pdf`  
+- `*ProjectReport.pdf`  
   Project workflow + diagrams (documentation).
 
 ## Database Objects (Summary)
@@ -41,7 +41,7 @@ A SQL Server database design for a subscription-based learning marketplace where
 > ⚠️ **Important:** The script drops and recreates the database. Run it only in a safe/local environment.
 
 1. Open **SQL Server Management Studio (SSMS)**.
-2. Open the SQL script file: `CET321_Final_*.sql`.
+2. Open the SQL script file: `MarketPlace_Database*.sql`.
 3. Execute the script.
 4. Verify:
    - Subscription payment is created after `sp_SubscribeStudent`
