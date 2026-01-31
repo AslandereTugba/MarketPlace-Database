@@ -1,4 +1,4 @@
-# Marketplace Database (CET321 Final)
+# Marketplace Database 
 
 A SQL Server database design for a subscription-based learning marketplace where students can:
 - subscribe to plans (quota-based question asking),
