@@ -512,4 +512,5 @@ BEGIN TRAN;
     DELETE FROM dbo.SubscriptionUsage
     WHERE usage_id = 1;
 ROLLBACK;
+
 GO
